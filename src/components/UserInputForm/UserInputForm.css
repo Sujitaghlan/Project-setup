@@ -1,0 +1,15 @@
+.form-container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 30px;
+}
+
+.form-container input, .form-container select{
+  border: 1px solid #000000;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+}

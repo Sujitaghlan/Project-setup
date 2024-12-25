@@ -1,0 +1,26 @@
+.home-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.home-container > :nth-child(1){
+  background-color: rgb(248, 166, 143);
+}
+
+.home-container > :nth-child(2){
+  background-color: rgb(135, 126, 236);
+}
+
+.home-container > :nth-child(3){
+  background-color: rgb(250, 150, 247);
+}
+
+.home-container > :nth-child(4){
+  background-color: rgb(153, 250, 133);
+}
+
+.home-container > :nth-child(5){
+  background-color: rgb(43, 255, 0);
+}
