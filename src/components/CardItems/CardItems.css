@@ -1,7 +1,17 @@
 .items-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.item-container{
   box-shadow: rgba(18, 18, 26, 0.2) 0px 7px 29px 0px;
   padding: 5px;
   margin-top: 10px;
   background-color: #ffffff;
   border-radius: 5px;
+}
+
+.items-container h2{
+  font-size: 20px;
+  font-weight: bold;
 }

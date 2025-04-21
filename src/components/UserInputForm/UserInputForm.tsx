@@ -33,7 +33,7 @@ const UserInputForm = () => {
   }
 
   useEffect(() => {
-    console.log('Current todoItems in context:', todoItems);
+    localStorage.setItem('items', JSON.stringify(todoItems));
   }, [todoItems]);
 
   return (
